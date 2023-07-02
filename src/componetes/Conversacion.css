@@ -1,0 +1,44 @@
+.conversacion{
+    background-color: #f2f3f4;
+    border-radius: 30px;
+    max-width: 80%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color:#5f5f5f;
+    font-weight: bold;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.user{
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color:#5f5f5f;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.assistant{
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color:#5f5f5f;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.name-conversacio{
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
